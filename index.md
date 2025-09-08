@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -48,10 +47,10 @@
         <section id="about" class="bg-white rounded-xl shadow-lg p-6 mb-8">
             <h2 class="text-2xl font-semibold text-gray-800 border-b pb-2 mb-4">About</h2>
             <p class="text-gray-700 leading-relaxed">
-                As a Bachelor of Science in Public Affairs student at Indiana University, I am deeply committed to a career at the intersection of law, policy, and national security. My coursework in Law and Public Policy, coupled with a minor in Economics, provides a strong foundation for analyzing complex strategic issues. I am an active Executive Board Member of the Alexander Hamilton Society, where I engage with pressing foreign policy and national security debates.
+                I am pursuing a Bachelor of Science in Public Affairs at Indiana University, majoring in Law and Public Policy with a minor in International Relations. My academic and professional interests lay in the areas of U.S. foreign policy, national security, and Mainland Chinese domestic policy via their impact on global security and relations.
             </p>
             <p class="text-gray-700 leading-relaxed mt-4">
-                My passion for US-China relations and space policy drives my professional interests, and I am focused on leveraging policy tools to address geopolitical challenges. Beyond academics, I am a dedicated classical musician, balancing my rigorous studies with the discipline of piano and orchestra. I am preparing for the LSAT and plan to pursue a J.D. with a focus on National Security Law, with a long-term goal of contributing to U.S. strategic policy.
+                With firsthand experience in Taiwan and Mainland China, I bring a practical understanding of the region’s political and security challenges. I am committed to research that strengthens U.S. grand defense strategy and alliances, advocating for the international recognition of the Republic of China on Taiwan, and promoting democratic resiliency in the Indo-Pacific.
             </p>
         </section>
 
