@@ -1,0 +1,106 @@
+:root {
+  --bg: #ffffff;
+  --ink: #0f1115;
+  --line: #e5e5e5;
+  --accent: #0071e3;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  backdrop-filter: saturate(180%) blur(20px);
+  background: rgba(255,255,255,.7);
+  border-bottom: 1px solid var(--line);
+}
+
+.nav {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.logo {
+  font-weight: 700;
+  margin-right: 16px;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+
+.menu a {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.menu a:hover {
+  background: rgba(0,0,0,.05);
+}
+
+.has-dropdown { position: relative; }
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 8px 0;
+  box-shadow: 0 4px 24px rgba(0,0,0,.08);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .2s ease;
+}
+
+.dropdown li { list-style: none; }
+
+.dropdown a {
+  padding: 8px 20px;
+  white-space: nowrap;
+  display: block;
+}
+
+.has-dropdown:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px 80px;
+}
+
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid var(--line);
+  color: #555;
+}
